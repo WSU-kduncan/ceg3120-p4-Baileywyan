@@ -16,7 +16,7 @@ Dockerize your python bot
 Will require use of Github Secrets to protect API key
 
 
-Project Overview:
+## Project Overview:
 
 Run Project Locally:
   installed docker using the help guide and some assistance after the initial download I had to uninstall and reinstall for proper function and connection using WSL2, as my dependency on my newest Ubuntu version. 
