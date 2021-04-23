@@ -43,3 +43,8 @@ aws_secret_access_key=gmUw5pcUr99GQRC8U8CwND9QLKZBtSRsstNBUY+R
 
 Configure GitHub Workflow
   variables to change: AWS_REGION, ECR_REPOSITORY, ECS_SERVICE, ECS_CLUSTER, ECS_TASK_DEFINITION, CONTAINER_NAME
+
+How to pull image with docker pull, what repo is the image in, requirements of the repo (public vs. private): To pull a docker image you would run docker pull base image
+from a docker file. This would build a docker image from a Dockerfile and a context, the build's context being a set of files specified using a path or url. The image is in a git repo, and the requirements of this repo need to be private. 
+Run the pulled image locally, using your system or a system on AWS as the host.
+Running the pulled image locally using the docker run command after killing off other running instances of docker images.
